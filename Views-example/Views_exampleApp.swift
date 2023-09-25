@@ -11,7 +11,11 @@ import SwiftUI
 struct Views_exampleApp: App {
     var body: some Scene {
         WindowGroup {
-            BankView()
+            if #available(iOS 16.1, *) {
+                ViewDynamicIsland()
+            } else {
+                BankView()
+            }
         }
     }
 }
