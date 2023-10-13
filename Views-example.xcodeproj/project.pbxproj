@@ -11,6 +11,7 @@
 		2421E29C2AB8930B005C88EB /* TempMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421E29B2AB8930B005C88EB /* TempMenuView.swift */; };
 		2421E29E2AB89567005C88EB /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421E29D2AB89567005C88EB /* TempView.swift */; };
 		242CD5132A957A170090A125 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CD5122A957A170090A125 /* FoodCategory.swift */; };
+		2444BB322ACF733E00B60A63 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444BB312ACF733E00B60A63 /* UserView.swift */; };
 		244B27CB2AC1D48900206A8F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2490C9CA2AC1B67D005F6CFB /* WidgetKit.framework */; };
 		244B27CC2AC1D48900206A8F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2490C9CC2AC1B67D005F6CFB /* SwiftUI.framework */; };
 		244B27CF2AC1D48A00206A8F /* DynamicBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B27CE2AC1D48A00206A8F /* DynamicBundle.swift */; };
@@ -87,6 +88,7 @@
 		2421E29B2AB8930B005C88EB /* TempMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempMenuView.swift; sourceTree = "<group>"; };
 		2421E29D2AB89567005C88EB /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
 		242CD5122A957A170090A125 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		2444BB312ACF733E00B60A63 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		244B27CA2AC1D48900206A8F /* DynamicExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DynamicExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		244B27CE2AC1D48A00206A8F /* DynamicBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicBundle.swift; sourceTree = "<group>"; };
 		244B27D02AC1D48A00206A8F /* DynamicLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLiveActivity.swift; sourceTree = "<group>"; };
@@ -160,6 +162,14 @@
 				241195512A96B55800766B8A /* FoodCard.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		2444BB302ACF733000B60A63 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				2444BB312ACF733E00B60A63 /* UserView.swift */,
+			);
+			path = user;
 			sourceTree = "<group>";
 		};
 		244B27CD2AC1D48A00206A8F /* Dynamic */ = {
@@ -308,6 +318,7 @@
 		24FCC8D02A94DF4D00DD6B17 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				2444BB302ACF733000B60A63 /* user */,
 				2490C9C12AC1B57D005F6CFB /* viewDynamicIsland */,
 				24DBDA7F2AB9CCBE00877EBF /* bank */,
 				24DF849C2A9A79E2009D6C96 /* social */,
@@ -519,6 +530,7 @@
 				24DBDA812AB9CCDD00877EBF /* BankView.swift in Sources */,
 				24A330492AC2316E00B361D2 /* DynamicEntity.swift in Sources */,
 				242CD5132A957A170090A125 /* FoodCategory.swift in Sources */,
+				2444BB322ACF733E00B60A63 /* UserView.swift in Sources */,
 				244B27D92AC1D48B00206A8F /* Dynamic.intentdefinition in Sources */,
 				24DF849E2A9A79FF009D6C96 /* SocialView.swift in Sources */,
 			);
