@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240607E62AFE733100FF754B /* ApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240607E52AFE733100FF754B /* ApartmentView.swift */; };
 		241195522A96B55800766B8A /* FoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241195512A96B55800766B8A /* FoodCard.swift */; };
 		2421E29C2AB8930B005C88EB /* TempMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421E29B2AB8930B005C88EB /* TempMenuView.swift */; };
 		2421E29E2AB89567005C88EB /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421E29D2AB89567005C88EB /* TempView.swift */; };
@@ -39,6 +40,7 @@
 		24FCC8C72A94DF4000DD6B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FCC8C62A94DF4000DD6B17 /* Assets.xcassets */; };
 		24FCC8CA2A94DF4000DD6B17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FCC8C92A94DF4000DD6B17 /* Preview Assets.xcassets */; };
 		24FCC8D32A94DF9000DD6B17 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FCC8D22A94DF9000DD6B17 /* RestaurantView.swift */; };
+		24FDF20D2AFFEE1900F529E9 /* ApartmentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDF20C2AFFEE1900F529E9 /* ApartmentDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		240607E52AFE733100FF754B /* ApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentView.swift; sourceTree = "<group>"; };
 		241195512A96B55800766B8A /* FoodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCard.swift; sourceTree = "<group>"; };
 		2421E29B2AB8930B005C88EB /* TempMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempMenuView.swift; sourceTree = "<group>"; };
 		2421E29D2AB89567005C88EB /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
@@ -117,6 +120,7 @@
 		24FCC8C62A94DF4000DD6B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24FCC8C92A94DF4000DD6B17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24FCC8D22A94DF9000DD6B17 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		24FDF20C2AFFEE1900F529E9 /* ApartmentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240607E42AFE72F100FF754B /* apartment */ = {
+			isa = PBXGroup;
+			children = (
+				240607E52AFE733100FF754B /* ApartmentView.swift */,
+				24FDF20C2AFFEE1900F529E9 /* ApartmentDetails.swift */,
+			);
+			path = apartment;
+			sourceTree = "<group>";
+		};
 		2421E29A2AB892FC005C88EB /* temp */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +331,7 @@
 		24FCC8D02A94DF4D00DD6B17 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				240607E42AFE72F100FF754B /* apartment */,
 				2444BB302ACF733000B60A63 /* user */,
 				2490C9C12AC1B57D005F6CFB /* viewDynamicIsland */,
 				24DBDA7F2AB9CCBE00877EBF /* bank */,
@@ -523,7 +537,9 @@
 				248A55242AB7403E00700442 /* ChatUser.swift in Sources */,
 				24FCC8C52A94DF3F00DD6B17 /* ContentView.swift in Sources */,
 				24EE13192A97BF0C00BEC62C /* MapView.swift in Sources */,
+				240607E62AFE733100FF754B /* ApartmentView.swift in Sources */,
 				2490C9C32AC1B5A0005F6CFB /* ViewDynamicIsland.swift in Sources */,
+				24FDF20D2AFFEE1900F529E9 /* ApartmentDetails.swift in Sources */,
 				24FCC8C32A94DF3F00DD6B17 /* Views_exampleApp.swift in Sources */,
 				241195522A96B55800766B8A /* FoodCard.swift in Sources */,
 				24FCC8D32A94DF9000DD6B17 /* RestaurantView.swift in Sources */,
